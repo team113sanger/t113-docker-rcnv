@@ -18,5 +18,3 @@ script:
  - docker run -t --rm r-cnv Rscript --version
  - docker run -t --rm r-cnv snp-pileup --help
  - docker run -t --rm r-cnv sequenza-utils --help
- - docker run -t --rm r-cnv samtools 
- - docker run -t --rm r-cnv bwa

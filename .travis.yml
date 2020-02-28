@@ -16,4 +16,5 @@ script:
  - echo 'Verify program(s) from this repo'
  - docker run -t --rm r-cnv R --version
  - docker run -t --rm r-cnv Rscript --version
-
+ - docker run -t --rm r-cnv snp-pileup --help
+ - docker run -t --rm r-cnv sequenza-utils --help

@@ -45,7 +45,7 @@ RUN bash build/opt-build.sh $OPT
 FROM quay.io/team113sanger/r-base:2.0.1
 
 LABEL maintainer="vo1@sanger.ac.uk" \
-      version="1.0.0" \
+      version="1.0.1" \
       description="R-cnv container"
 
 MAINTAINER  Victoria Offord <vo1@sanger.ac.uk>

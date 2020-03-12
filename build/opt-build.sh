@@ -79,6 +79,7 @@ if [ ! -e $SETUP_DIR/htslib.success ]; then
   make install
   cd $SETUP_DIR
   rm -r dist*
+  ln -s $INST_PATH/htslib/bin/* $INST_PATH/bin/
   touch $SETUP_DIR/htslib.success
 fi
 
